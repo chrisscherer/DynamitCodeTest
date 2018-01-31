@@ -1,0 +1,25 @@
+#intro-content {
+    padding: 15vh 20vw;
+    background: #f7f7f752;
+}
+
+#intro-text {
+    font-size: 400%;
+    font-weight: lighter;
+    text-align: center;
+    color: rgba(1,1,1,0.6);
+}
+
+#intro-button {
+    text-align: center;
+}
+
+#intro-button button{
+    border: 1px solid rgba(1, 1, 1, 0);
+    background: #286782;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 30px;
+    font-size: 100%;
+    margin-bottom: 10vh;
+}

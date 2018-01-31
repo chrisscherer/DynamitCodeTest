@@ -1,0 +1,36 @@
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3vh 25vw;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  background: white;
+}
+
+/*  This was an attempt at a sticky navbar. Unfortunately the interaction between padding and fixed positioning
+ is something I wasn't able to figure out in a timely manner*/
+
+/* 
+
+  transition-property: padding;
+  transition-duration: 1s;
+  transition-delay: .2s;
+} */
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 1905px;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+} */
+
+.navbar-item {
+  font-size: 1em;
+}
+
+@media(max-width: 980px) {
+  .navbar-item{
+    font-size: .5em;
+  }
+}
